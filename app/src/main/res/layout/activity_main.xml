@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/black"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -18,13 +19,15 @@
 
     <LinearLayout
         android:layout_width="match_parent"
+        android:background="@color/black"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_weight="1">
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
+            android:backgroundTint="@color/black"
             android:id="@+id/seven"
-            android:layout_margin="2dp"
+            android:textColor="@color/white"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -33,10 +36,11 @@
             android:textSize="23sp"
             tools:ignore="NestedWeights,UsingOnClickInXml" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
+            android:backgroundTint="@color/black"
             android:id="@+id/eight"
-            android:layout_margin="2dp"
             android:onClick="Ondigit"
+            android:textColor="@color/white"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -44,22 +48,24 @@
             android:textSize="23sp"
             tools:ignore="UsingOnClickInXml" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
+            android:backgroundTint="@color/black"
             android:id="@+id/nine"
-            android:layout_margin="2dp"
             android:onClick="Ondigit"
             android:layout_width="0dp"
+            android:textColor="@color/white"
             android:textSize="23sp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="@string/_9"
             tools:ignore="UsingOnClickInXml" />
 
-        <Button
-            android:layout_margin="2dp"
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@color/black"
             android:onClick="Onoperator"
             android:layout_width="0dp"
             android:id="@+id/divide"
+            android:textColor="@color/dull_red"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="@string/divide"
@@ -75,8 +81,10 @@
         android:orientation="horizontal"
         android:layout_weight="1">
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/four"
+            android:textColor="@color/white"
+            android:background="@color/black"
             android:layout_margin="2dp"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -86,8 +94,10 @@
             android:textSize="23sp"
             tools:ignore="NestedWeights,UsingOnClickInXml" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
+            android:backgroundTint="@color/black"
             android:id="@+id/five"
+            android:textColor="@color/white"
             android:layout_margin="2dp"
             android:onClick="Ondigit"
             android:layout_width="0dp"
@@ -97,8 +107,10 @@
             android:textSize="23sp"
             tools:ignore="UsingOnClickInXml" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
+            android:backgroundTint="@color/black"
             android:id="@+id/six"
+            android:textColor="@color/white"
             android:layout_margin="2dp"
             android:onClick="Ondigit"
             android:layout_width="0dp"
@@ -108,10 +120,11 @@
             android:textSize="23sp"
             tools:ignore="UsingOnClickInXml" />
 
-        <Button
-            android:layout_margin="2dp"
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@color/black"
             android:onClick="Onoperator"
             android:layout_width="0dp"
+            android:textColor="@color/dull_red"
             android:id="@+id/btnmultiplication"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -128,9 +141,11 @@
         android:orientation="horizontal"
         android:layout_weight="1">
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
+            android:backgroundTint="@color/black"
             android:layout_margin="2dp"
             android:id="@+id/one"
+            android:textColor="@color/white"
             android:layout_width="0dp"
             android:textSize="23sp"
             android:layout_height="match_parent"
@@ -139,8 +154,10 @@
             android:text="@string/_1"
             tools:ignore="NestedWeights,UsingOnClickInXml" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
+            android:backgroundTint="@color/black"
             android:id="@+id/two"
+            android:textColor="@color/white"
             android:layout_margin="2dp"
             android:onClick="Ondigit"
             android:layout_width="0dp"
@@ -150,8 +167,10 @@
             android:text="@string/_2"
             tools:ignore="UsingOnClickInXml" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
+            android:backgroundTint="@color/black"
             android:id="@+id/three"
+            android:textColor="@color/white"
             android:layout_margin="2dp"
             android:onClick="Ondigit"
             android:layout_width="0dp"
@@ -161,10 +180,11 @@
             android:text="@string/_3"
             tools:ignore="UsingOnClickInXml" />
 
-        <Button
-            android:layout_margin="2dp"
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@color/black"
             android:onClick="Onoperator"
             android:layout_width="0dp"
+            android:textColor="@color/dull_red"
             android:id="@+id/minus"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -182,9 +202,11 @@
         android:layout_weight="1">
 
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
+            android:backgroundTint="@color/black"
             android:layout_margin="2dp"
             android:onClick="Ondigit"
+            android:textColor="@color/white"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -192,8 +214,10 @@
             android:id="@+id/zero"
             android:textSize="23sp"
             tools:ignore="NestedWeights,UsingOnClickInXml" />
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
+            android:backgroundTint="@color/black"
             android:layout_margin="2dp"
+            android:textColor="@color/white"
             android:onClick="OnDecimalpoint"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -202,8 +226,9 @@
             android:text="@string/dot"
             android:id="@+id/dot"/>
 
-        <Button
-            android:layout_margin="2dp"
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@color/black"
+            android:textColor="@color/dull_red"
             android:onClick="Onoperator"
             android:id="@+id/plus"
             android:layout_width="0dp"
@@ -213,11 +238,12 @@
             android:text="@string/plus"
             tools:ignore="UsingOnClickInXml" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@color/black"
             android:id="@+id/clr"
             android:layout_width="0dp"
+            android:textColor="@color/dull_red"
             android:layout_height="match_parent"
-            android:layout_margin="2dp"
             android:layout_weight="1"
             android:onClick="Onclear"
             android:textSize="23sp"
@@ -233,13 +259,14 @@
         android:orientation="horizontal"
         android:layout_weight="1">
 
-        <Button
-            android:layout_margin="2dp"
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@color/dull_red"
             android:onClick="Onequal"
             android:layout_width="0dp"
             android:textSize="33sp"
+            android:textColor="@color/white"
             android:layout_height="match_parent"
-            android:layout_weight="2"
+            android:layout_weight="1"
             android:text="@string/equal"
             android:id="@+id/btnequal"
             tools:ignore="NestedWeights,UsingOnClickInXml" />
